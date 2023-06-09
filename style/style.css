@@ -264,6 +264,43 @@ nav a:hover {
     color: var(--cor-fonte-text);
 }
 
+.container05 img{
+    padding: 5px 0px;
+}
+.container05 figcaption{
+    padding: 20px 5px;
+}
+#carrosselImgElement {
+    transition: opacity 3.5s ease;
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.seta-direita,
+.seta-esquerda {
+    height: 100%;
+    width: auto;
+    padding: 1em 0.7em;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.549);
+}
+
+.seta-direita {
+    right: 2em;
+}
+
+.seta-esquerda {
+    left: 2em;
+}
+
 /* Seção 06 !!!!!!!!!!!!!!!!!!!!!!! */
 .container06 {
     background-color: var(--cor-primaria);
@@ -533,6 +570,42 @@ footer {
         width: 60%;
         height: 40%;
     }
+    .container05 img{
+        padding: 5px 0px;
+    }
+    .container05 figcaption{
+        padding: 20px 5px;
+    }
+    #carrosselImgElement {
+        transition: opacity 3.5s ease;
+        width: 60%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .carrossel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .seta-direita,
+    .seta-esquerda {
+        height: 100%;
+        width: auto;
+        padding: 1em 0.7em;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.549);
+    }
+    
+    .seta-direita {
+        right: 2em;
+    }
+    
+    .seta-esquerda {
+        left: 2em;
+    }
 }
 @media (max-width: 600px) {
     #nav {
@@ -613,22 +686,30 @@ footer {
     .container01{
         padding: 20px 0px;
     }
+    .container01 h1{
+        font-size: 2.5em;
+    }
     .container01 p{
         padding: 20px 0px;
-        margin: 0px 10px;
+        margin: 0px 40px;
+        text-align: justify;
     }
     .container01 h1{
         font-size: 30px;
     }
     .container01 div h3{
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .container01 div ul{
         flex-direction: column;
     }
     .container01 div p{
-        font-size: 15px;
+        font-size: 1.4em;
         margin: 5px 0px;
+        text-align: center;
+    }
+    .container01 div i{
+        font-size: 4em;
     }
     .container02{
         padding: 30px 10px;
@@ -655,7 +736,21 @@ footer {
         padding: 0px;
     }
     .container04{
+        padding: 25px 0px;
+    }
+    .container04 ul li{
+        padding: 30px;
+        text-align: justify;
+    }
+    .container04 ul li p{
+        font-size: 1.3em;
         padding: 0px;
+    }
+    .container05 img{
+        padding: 5px 0px;
+    }
+    .container05 figcaption{
+        padding: 20px 5px;
     }
     #carrosselImgElement {
         transition: opacity 3.5s ease;
@@ -689,5 +784,12 @@ footer {
     }
     .container06{
         padding: 30px 10px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
     }
 }
