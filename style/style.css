@@ -283,7 +283,6 @@ nav a:hover {
     justify-content: center;
     flex-direction: row;
 }
-
 .seta-direita,
 .seta-esquerda {
     height: 100%;
@@ -292,15 +291,12 @@ nav a:hover {
     position: relative;
     background-color: rgba(255, 255, 255, 0.549);
 }
-
 .seta-direita {
     right: 2em;
 }
-
 .seta-esquerda {
     left: 2em;
 }
-
 /* Seção 06 !!!!!!!!!!!!!!!!!!!!!!! */
 .container06 {
     background-color: var(--cor-primaria);
@@ -692,7 +688,7 @@ footer {
     .container01 p{
         padding: 20px 0px;
         margin: 0px 40px;
-        text-align: justify;
+        text-align: start;
     }
     .container01 h1{
         font-size: 30px;
@@ -740,7 +736,7 @@ footer {
     }
     .container04 ul li{
         padding: 30px;
-        text-align: justify;
+        text-align: start;
     }
     .container04 ul li p{
         font-size: 1.3em;
